@@ -1,6 +1,3 @@
-# dist
-/dist/
-
 # Numerous always-ignore extensions
 *.diff
 *.err
