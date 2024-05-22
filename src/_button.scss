@@ -1,0 +1,13 @@
+@import "variables/colorPallet";
+.btn {
+  display: inline-block;
+  min-width: 96px;
+  height: 48px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: $color-gray-420;
+  &.--primary {
+    background-color: $color-blue-900;
+  }
+}
