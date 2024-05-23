@@ -1,6 +1,8 @@
 .btn {
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 96px;
   height: 48px;
   padding: 12px 16px;
@@ -8,6 +10,7 @@
   border-radius: 8px;
   border-width: 1px;
   border-color: transparent;
+  border-style: solid;
   background-color: #949494;
   color: #ffffff;
   font-size: 16px;
@@ -17,12 +20,92 @@
 .btn.--primary {
   background-color: #0017c1;
   color: #ffffff;
-  border-color: #0017c1;
+}
+.btn.--primary:active {
+  background-color: #00118f;
+  text-decoration: underline;
+}
+.btn.--primary:hover {
+  background-color: #000071;
+  text-decoration: underline;
+}
+.btn.--primary:focus-visible {
+  border-color: white;
+  outline-offset: 2px;
+  outline: 2px solid #b78f00;
+  text-decoration: underline;
+}
+.btn.--primary:disabled {
+  background-color: #949494;
 }
 .btn.--secondary {
   background-color: #ffffff;
   color: #0017c1;
   border-color: #0017c1;
+}
+.btn.--secondary:active {
+  background-color: #c5d7fb;
+  color: #00118f;
+  border-color: #00118f;
+  text-decoration: underline;
+}
+.btn.--secondary:hover {
+  background-color: #c5d7fb;
+  color: #000060;
+  border-color: #000060;
+  text-decoration: underline;
+}
+.btn.--secondary:focus-visible {
+  border-color: #0017c1;
+  outline-offset: 2px;
+  outline: 2px solid #b78f00;
+  text-decoration: underline;
+}
+.btn.--secondary:disabled {
+  background-color: #ffffff;
+  color: #949494;
+  border-color: #949494;
+}
+.btn.--tertiary {
+  background-color: transparent;
+  color: #0017c1;
+  border-color: transparent;
+  text-decoration: underline;
+}
+.btn.--tertiary:active {
+  background-color: #c5d7fb;
+  color: #00118f;
+}
+.btn.--tertiary:hover {
+  background-color: #9db7f9;
+  color: #000060;
+}
+.btn.--tertiary:focus-visible {
+  border-color: #0017c1;
+  outline-offset: 2px;
+  outline: 2px solid #b78f00;
+}
+.btn.--tertiary:disabled {
+  background-color: transparent;
+  color: #949494;
+}
+.btn.--large {
+  min-width: 136px;
+  height: 56px;
+}
+.btn.--medium {
+  min-width: 96px;
+  height: 48px;
+}
+.btn.--small {
+  min-width: 80px;
+  height: 36px;
+  padding: 6px 12px;
+}
+.btn.--x-small {
+  min-width: 72px;
+  height: 28px;
+  padding: 8px 7px;
 }
 
 /*# sourceMappingURL=dads-styles.css.map */

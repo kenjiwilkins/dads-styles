@@ -1,7 +1,9 @@
 @import "variables/colorPallet";
 .btn {
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 96px;
   height: 48px;
   padding: 12px 16px;
@@ -9,6 +11,7 @@
   border-radius: 8px;
   border-width: 1px;
   border-color: transparent;
+  border-style: solid;
   background-color: $color-gray-420;
   color: $white;
   font-size: 16px;
@@ -18,11 +21,91 @@
   &.--primary {
     background-color: $color-blue-900;
     color: $white;
-    border-color: $color-blue-900;
+    &:active {
+      background-color: $color-blue-1000;
+      text-decoration: underline;
+    }
+    &:hover {
+      background-color: $color-blue-1100;
+      text-decoration: underline;
+    }
+    &:focus-visible {
+      border-color: white;
+      outline-offset: 2px;
+      outline: 2px solid $color-yellow-700;
+      text-decoration: underline;
+    }
+    &:disabled {
+      background-color: $color-gray-420;
+    }
   }
   &.--secondary {
     background-color: $white;
     color: $color-blue-900;
     border-color: $color-blue-900;
+    &:active {
+      background-color: $color-blue-200;
+      color: $color-blue-1000;
+      border-color: $color-blue-1000;
+      text-decoration: underline;
+    }
+    &:hover {
+      background-color: $color-blue-200;
+      color: $color-blue-1200;
+      border-color: $color-blue-1200;
+      text-decoration: underline;
+    }
+    &:focus-visible {
+      border-color: $color-blue-900;
+      outline-offset: 2px;
+      outline: 2px solid $color-yellow-700;
+      text-decoration: underline;
+    }
+    &:disabled {
+      background-color: $white;
+      color: $color-gray-420;
+      border-color: $color-gray-420;
+    }
+  }
+  &.--tertiary {
+    background-color: transparent;
+    color: $color-blue-900;
+    border-color: transparent;
+    text-decoration: underline;
+    &:active {
+      background-color: $color-blue-200;
+      color: $color-blue-1000;
+    }
+    &:hover {
+      background-color: $color-blue-300;
+      color: $color-blue-1200;
+    }
+    &:focus-visible {
+      border-color: $color-blue-900;
+      outline-offset: 2px;
+      outline: 2px solid $color-yellow-700;
+    }
+    &:disabled {
+      background-color: transparent;
+      color: $color-gray-420;
+    }
+  }
+  &.--large {
+    min-width: 136px;
+    height: 56px;
+  }
+  &.--medium {
+    min-width: 96px;
+    height: 48px;
+  }
+  &.--small {
+    min-width: 80px;
+    height: 36px;
+    padding: 6px 12px;
+  }
+  &.--x-small {
+    min-width: 72px;
+    height: 28px;
+    padding: 8px 7px;
   }
 }

@@ -1,12 +1,13 @@
 {
   "name": "dads-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "style": "dist/dads-styles.css",
   "scss": "src/dads.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css-compile": "sass ./src/dads.scss ./dist/dads-styles.css"
+    "css-compile": "sass ./src/dads.scss ./dist/dads-styles.css",
+    "css-compile-watch": "sass --watch ./src/dads.scss ./dist/dads-styles.css"
   },
   "keywords": [],
   "author": "",
