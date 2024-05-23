@@ -153,3 +153,38 @@ $color-purple-900: #5109ad;
 $color-purple-1000: #41048e;
 $color-purple-1100: #30016c;
 $color-purple-1200: #21004b;
+
+// export colors
+
+$colors: (
+  "white": $white,
+  "black": $black,
+  "gray-50": $color-gray-50,
+  "gray-100": $color-gray-100,
+  "gray-200": $color-gray-200,
+  "gray-300": $color-gray-300,
+  "gray-400": $color-gray-400,
+  "gray-420": $color-gray-420,
+  "gray-500": $color-gray-500,
+  "gray-536": $color-gray-536,
+  "gray-600": $color-gray-600,
+  "gray-700": $color-gray-700,
+  "gray-800": $color-gray-800,
+  "gray-900": $color-gray-900,
+
+  "blue-50": $color-blue-50,
+  "blue-100": $color-blue-100,
+  "blue-200": $color-blue-200,
+  "blue-300": $color-blue-300,
+  "blue-400": $color-blue-400,
+  "blue-500": $color-blue-500,
+  "blue-600": $color-blue-600,
+  "blue-700": $color-blue-700,
+  "blue-800": $color-blue-800,
+  "blue-900": $color-blue-900,
+  "blue-1000": $color-blue-1000,
+  "blue-1100": $color-blue-1100,
+  "blue-1200": $color-blue-1200,
+
+  "yellow-700": $color-yellow-700,
+) !default;

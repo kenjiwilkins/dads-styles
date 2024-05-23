@@ -1,1 +1,9 @@
 @import "variables/colorPallet";
+
+$prefix: "dads";
+
+:root {
+  @each $color, $value in $colors {
+    --#{$prefix}-#{$color}: #{$value};
+  }
+}

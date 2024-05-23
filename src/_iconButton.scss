@@ -1,0 +1,50 @@
+@import "variables/colorPallet";
+
+.icn-btn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: var(--dads-white);
+  border-color: var(--dads-blue-900);
+  color: var(--dads-blue-900);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+  .icn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: var(--dads-blue-900);
+    fill: var(--dads-blue-900);
+  }
+  &:hover {
+    background-color: var(--dads-blue-200);
+    color: var(--dads-blue-1000);
+    border-color: var(--dads-blue-1000);
+    .icn {
+      stroke: var(--dads-blue-1000);
+      fill: var(--dads-blue-1000);
+    }
+  }
+  &:active {
+    background-color: var(--dads-blue-300);
+    color: var(--dads-blue-1200);
+    border-color: var(--dads-blue-1200);
+    .icn {
+      stroke: var(--dads-blue-1200);
+      fill: var(--dads-blue-1200);
+    }
+  }
+  &:focus-visible {
+    border-color: var(--dads-blue-900);
+    outline-offset: 2px;
+    outline: 2px solid var(--dads-yellow-700);
+  }
+}
