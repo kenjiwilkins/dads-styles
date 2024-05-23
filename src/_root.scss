@@ -6,4 +6,15 @@ $prefix: "dads";
   @each $color, $value in $colors {
     --#{$prefix}-#{$color}: #{$value};
   }
+  @each $color, $value in map-get($color-schemes, "light") {
+    --#{$prefix}-#{$color}: #{$value};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @each $color, $value in map-get($color-schemes, "dark") {
+      --#{$prefix}-#{$color}: #{$value};
+    }
+  }
 }

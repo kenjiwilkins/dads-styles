@@ -1,5 +1,6 @@
+@import "variables/common";
 @import "variables/colorPallet";
-.btn {
+.#{$prefix}-btn {
   box-sizing: border-box;
   display: flex;
   justify-content: center;

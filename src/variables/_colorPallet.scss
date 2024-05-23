@@ -154,7 +154,48 @@ $color-purple-1000: #41048e;
 $color-purple-1100: #30016c;
 $color-purple-1200: #21004b;
 
-// export colors
+// color-scheme
+
+$color-sea-200: #9db7f9;
+$color-sea-300: #7096f8;
+$color-sea-800: #0017c1;
+$color-sea-900: #000082;
+
+$color-sumi-400: #b4b4b7;
+$color-sumi-500: #949497;
+$color-sumi-600: #757578;
+$color-sumi-700: #626264;
+$color-sumi-900: #1a1a1a;
+
+$color-sun-300: #ff7b5c;
+$color-sun-800: #ec0000;
+
+$color-schemes: (
+  "light": (
+    "body": $color-sumi-900,
+    "description": $color-sumi-700,
+    "placeholder": $color-sumi-600,
+    "on-fill": $white,
+    "link": $color-sea-800,
+    "hover": $color-sea-900,
+    "active": $color-sea-900,
+    "visited": $color-sea-900,
+    "alert": $color-sun-800,
+    "disabled": $color-sumi-500,
+  ),
+  "dark": (
+    "body": $white,
+    "description": $color-sumi-400,
+    "placeholder": $color-sumi-500,
+    "on-fill": $white,
+    "link": $color-sea-300,
+    "hover": $color-sea-200,
+    "active": $color-sea-200,
+    "visited": $color-sea-200,
+    "alert": $color-sun-300,
+    "disabled": $color-sumi-600,
+  ),
+);
 
 $colors: (
   "white": $white,

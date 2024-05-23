@@ -1,6 +1,9 @@
+@import "variables/common";
 @import "variables/colorPallet";
 
-.icn-btn {
+$iconClassName: ".#{$prefix}-icn";
+
+.#{$prefix}-icn-btn {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -15,7 +18,7 @@
   font-size: 16px;
   font-weight: bold;
   line-height: 150%;
-  .icn {
+  #{$iconClassName} {
     width: 24px;
     height: 24px;
     display: flex;
@@ -28,7 +31,7 @@
     background-color: var(--dads-blue-200);
     color: var(--dads-blue-1000);
     border-color: var(--dads-blue-1000);
-    .icn {
+    #{$iconClassName} {
       stroke: var(--dads-blue-1000);
       fill: var(--dads-blue-1000);
     }
@@ -37,7 +40,7 @@
     background-color: var(--dads-blue-300);
     color: var(--dads-blue-1200);
     border-color: var(--dads-blue-1200);
-    .icn {
+    #{$iconClassName} {
       stroke: var(--dads-blue-1200);
       fill: var(--dads-blue-1200);
     }
