@@ -1,3 +1,5 @@
+@import "layout";
+
 $font-size-xxl: "57px";
 $font-size-xl: "45px";
 $font-size-l: "36px";
@@ -97,35 +99,35 @@ $font-size-xxs-m: "16px";
 
 .dads-h1 {
   @include font-size-l();
-  @media (max-width: 768px) {
+  @media (max-width: $media-is-mobile) {
     @include font-size-l-m();
   }
 }
 
 .dads-h2 {
   @include font-size-m();
-  @media (max-width: 768px) {
+  @media (max-width: $media-is-mobile) {
     @include font-size-m-m();
   }
 }
 
 .dads-h3 {
   @include font-size-s();
-  @media (max-width: 768px) {
+  @media (max-width: $media-is-mobile) {
     @include font-size-s-m();
   }
 }
 
 .dads-h4 {
   @include font-size-xs();
-  @media (max-width: 768px) {
+  @media (max-width: $media-is-mobile) {
     @include font-size-xs-m();
   }
 }
 
 .dads-h5 {
   @include font-size-xxs();
-  @media (max-width: 768px) {
+  @media (max-width: $media-is-mobile) {
     @include font-size-xxs-m();
   }
 }
