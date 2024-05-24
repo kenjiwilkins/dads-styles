@@ -1,5 +1,7 @@
 @import "variables/common";
 @import "variables/colorPallet";
+@import "variables/typography";
+
 .#{$prefix}-btn {
   box-sizing: border-box;
   display: flex;
@@ -14,9 +16,7 @@
   border-style: solid;
   background-color: $color-gray-420;
   color: $white;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 150%;
+  @include dads-button-text();
 
   &.--primary {
     background-color: var(--dads-blue-900);

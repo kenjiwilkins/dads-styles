@@ -3,6 +3,8 @@
 $prefix: "dads";
 
 :root {
+  font-family: "Noto Sans JP", sans-serif;
+
   @each $color, $value in $colors {
     --#{$prefix}-#{$color}: #{$value};
   }
