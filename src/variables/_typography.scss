@@ -1,100 +1,105 @@
 @import "layout";
 
-$font-size-xxl: "57px";
-$font-size-xl: "45px";
-$font-size-l: "36px";
-$font-size-l-m: "32px";
-$font-size-m: "32px";
-$font-size-m-m: "28px";
-$font-size-s: "28px";
-$font-size-s-m: "24px";
-$font-size-xs: "24px";
-$font-size-xs-m: "20px";
-$font-size-xxs: "20px";
-$font-size-xxs-m: "16px";
+$font-size-xxl: 57px;
+$font-size-xl: 45px;
+$font-size-l: 36px;
+$font-size-l-m: 32px;
+$font-size-m: 32px;
+$font-size-m-m: 28px;
+$font-size-s: 28px;
+$font-size-s-m: 24px;
+$font-size-xs: 24px;
+$font-size-xs-m: 20px;
+$font-size-xxs: 20px;
+$font-size-xxs-m: 16px;
 
 @mixin font-size-xxl {
-  font-size: "57px";
+  font-size: 57px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-xl {
-  font-size: "45px";
+  font-size: 45px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-l {
-  font-size: "36px";
+  font-size: 36px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-l-m {
-  font-size: "32px";
+  font-size: 32px;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-m {
-  font-size: "32px";
+  font-size: 32px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-m-m {
-  font-size: "28px";
+  font-size: 28px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-s {
-  font-size: "28px";
+  font-size: 28px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-s-m {
-  font-size: "24px";
+  font-size: 24px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-xs {
-  font-size: "24px";
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-xs-m {
-  font-size: "20px";
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-xxs {
-  font-size: "20px";
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 @mixin font-size-xxs-m {
-  font-size: "16px";
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.04em;
+}
+
+.dads-typography {
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--dads-body);
 }
 
 .dads-h1 {
@@ -138,6 +143,7 @@ $font-size-xxs-m: "16px";
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.04em;
+  color: var(--dads-description);
 }
 
 .dads-body-m {
@@ -145,6 +151,7 @@ $font-size-xxs-m: "16px";
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.04em;
+  color: var(--dads-description);
 }
 
 .dads-label-l,
@@ -153,6 +160,7 @@ $font-size-xxs-m: "16px";
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--dads-placeholder);
 }
 
 .dads-label-m {
@@ -160,6 +168,7 @@ $font-size-xxs-m: "16px";
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--dads-placeholder);
 }
 
 .dads-caption-l,
@@ -168,6 +177,7 @@ $font-size-xxs-m: "16px";
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.04em;
+  color: var(--dads-description);
 }
 
 .dads-caption-m {
@@ -175,6 +185,7 @@ $font-size-xxs-m: "16px";
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.04em;
+  color: var(--dads-description);
 }
 
 @mixin dads-button-text {
