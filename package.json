@@ -1,6 +1,6 @@
 {
   "name": "dads-styles",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "style": "dist/dads-styles.css",
   "scss": "src/dads.scss",
@@ -9,7 +9,13 @@
     "css-compile": "sass ./src/dads.scss ./dist/dads-styles.css",
     "css-compile-watch": "sass --watch ./src/dads.scss ./dist/dads-styles.css"
   },
-  "keywords": [],
+  "keywords": [
+    "dads",
+    "styles",
+    "css",
+    "sass",
+    "デジタル庁"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
