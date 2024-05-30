@@ -489,4 +489,30 @@
   outline: 2px solid var(--dads-yellow-700);
 }
 
+.dads-link {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-decoration: underline;
+  color: #00118f;
+  cursor: pointer;
+}
+.dads-link:focus-visible {
+  color: #0017c1;
+  outline-offset: 2px;
+  outline: 2px solid #b78f00;
+  border-radius: 4px;
+}
+.dads-link:hover {
+  color: #0017c1;
+  background-color: #f2f2f2;
+}
+.dads-link:active {
+  color: #e25100;
+}
+.dads-link:visited {
+  color: #8b008b;
+}
+
 /*# sourceMappingURL=dads-styles.css.map */
