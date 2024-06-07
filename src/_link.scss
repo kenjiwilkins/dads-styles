@@ -1,0 +1,27 @@
+@import "variables/colorPallet";
+
+.dads-link {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-decoration: underline;
+  color: $color-blue-1000;
+  cursor: pointer;
+  &:focus-visible {
+    color: $color-blue-900;
+    outline-offset: 2px;
+    outline: 2px solid $color-yellow-700;
+    border-radius: 4px;
+  }
+  &:hover {
+    color: $color-blue-900;
+    background-color: $color-gray-50;
+  }
+  &:active {
+    color: $color-orange-700;
+  }
+  &:visited {
+    color: $color-magenta-900;
+  }
+}

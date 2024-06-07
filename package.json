@@ -1,6 +1,6 @@
 {
   "name": "dads-styles",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "style": "dist/dads-styles.css",
   "scss": "src/dads.scss",
